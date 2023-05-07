@@ -1,0 +1,49 @@
+{
+    "products":[
+        {"name": "Capuccino",
+        "price":15.99,
+        "about":"Uma obra-prima em uma xícara - o cappuccino é uma mistura perfeita de café espresso rico, leite vaporizado cremoso e uma pitada de cacau em pó para dar aquele toque especial. ",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wBvuUYYejX1U665YslolB1x2ICqCEDgl7DsLGGisiOSDIlO_6QzvifyU4pS3FMspQkQ&usqp=CAU",
+        "categorie": "Breakfest"
+
+         },
+         {"name": "caffè latte.",
+         "price":10.99,
+         "about":"Uma mistura suave de café espresso e leite vaporizado cremoso, o caffè latte é uma bebida indulgente que pode ser apreciada em qualquer momento do dia.  ",
+         "image": "https://coffeeaffection.com/wp-content/uploads/2020/01/how-to-make-a-latte-at-home.jpg",
+         "categorie": "Breakfest"
+          },
+
+          {"name": "macchiato",
+          "price":19.99,
+          "about":"Uma pitada de doçura, um toque de ousadia e um aroma inebriante - o café Macchiato é a bebida perfeita para os amantes de café que buscam algo especial.",
+          "image":"https://www.notmilk.coffee/static/e156c31dd7bc8b9e1edf1c3d0da018f5/3efac/caramel-macchiato.jpg", 
+           "categorie": "Lunch"
+           },
+
+           {
+            "name":"Express coffee",
+            "price": "9.99",
+            "about": "Uma dose de energia em uma xícara - o café espresso é a escolha perfeita para aqueles que precisam de um impulso extra para começar o dia.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThUW4gp0vlJ3sWE3ub1eC-m-gPyTXynL3KLIaAlD0QuJcHT8F_8Goetyr32lyT4X3Qf88&usqp=CAU",
+            "categorie":"Lunch"
+           }
+           ,
+           {
+            "name":"Capuccino Shake",
+            "price": "16.99",
+            "about": "Uma mistura cremosa de café espresso, leite gelado e sorvete, o Capuccino Shake é a melhor opção para satisfazer seu desejo por algo doce e refrescante.",
+            "image": "https://vivariomarrecife.com.br/wp-content/uploads/2021/05/4-27.png",
+            "categorie":"Shakes"
+           },
+           {
+           "name":"Hortelã Shake",
+           "price": "16.99",
+           "about": "Shake de Hortelã é a escolha perfeita para aqueles que procuram uma bebida refrescante e saborosa. Combinando sorvete cremoso, leite gelado e xarope de hortelã fresco",
+           "image": "https://vivariomarrecife.com.br/wp-content/uploads/2021/05/4-27.png",
+           "categorie":"Shakes"
+          }
+
+
+    ]
+}

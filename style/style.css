@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 
+
+    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 28vh;
+    gap: 20px;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 3.5em;
+    border-bottom: 3px solid #FFB04C;
+    
+}
+
+
+ul.options-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 15px;
+}
+
+ul li button{
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 2px solid gray;
+    background: transparent;
+    cursor: pointer;
+}
+
+ul li button:hover{
+    color: white;
+   
+    background-color: #FCBC6B;
+}
+
+
+.main-content{
+    margin-top: 50px;
+ }
+
+.container-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    min-height: 10vh;
+    margin: 0px auto;
+
+
+}
+
+.product-from-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 450px;
+    height: 150px;
+    margin: 25px 0px;
+
+}
+
+.product-image{
+    width: 50%;
+
+}
+.product-image img{
+    display: block;
+    height: 150px;
+    width: 220px;
+    border-radius: 12px;
+    border: 3px solid #FFB04C;
+}
+
+.product-texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.product-texts ul{
+ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.product-texts ul li{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: black;
+}
+
+.product-texts #ProductPrice{
+    color: #FFB04C;
+    background-color: gray;
+    padding: 0px 12px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.product-texts .text-description{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+  
+}
