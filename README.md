@@ -1,6 +1,7 @@
 # OurMenu
 <h3> <strong> stack </strong> </h3>
 <ul>
-  <ul>Javascript</ul>
-  <li>  </li>
+ <li> Javascript Vanilla </li>
+ <li> CSS3 responsive </li>
+ <li> HTML5 </li>
 </ul>  
